@@ -1,10 +1,31 @@
-# ml-dataset-doctor
+# 🩺 ml-dataset-doctor
 
-Features:
-- Dataset health scan
-- Auto-fix planning + execution
+Diagnose, fix, and audit machine learning datasets **before training**.
+
+`ml-dataset-doctor` is a lightweight Python library that:
+- Scans datasets for common ML issues
+- Generates safe auto-fix plans
+- Applies fixes with full audit logs
+- Detects dataset drift
+- Works via CLI and Python API
+
+---
+
+## ✨ Features
+
+- Missing value detection & imputation
+- Duplicate row removal
+- Constant feature removal
+- Outlier capping (IQR-based)
+- Label noise estimation
+- Target leakage detection
 - Dataset drift comparison
-- CLI + Python API
+- Auto-fix planning + execution
+- Full audit logs
 
-CLI:
-dataset-doctor data.csv --target y --auto-fix
+---
+
+## 📦 Installation
+
+```bash
+pip install ml-dataset-doctor
